@@ -31,7 +31,7 @@ payable contract Jaenet =
     account = {},
     designs = {},
     trans   = {},
-    janet   = ak_2o5ZXFXU6uGNdLR2TzCBTSe7TCFfbtK8YAzMCd7zhosD9xymcq }
+    janet   = ak_2porkGU4JyPmH6Eo6CENNZGcdRF19Ux7F3sdugBiy9Z9UGv4Az }
 
   entrypoint getAbout() =
     state.account[state.janet]
