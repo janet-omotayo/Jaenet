@@ -1,6 +1,6 @@
 let ipfs = null, client = null, contractInstance = null, jaenetImage = null, designImage = null;
 
-let contractAddress ="ct_2YpGczTqAFxCBafzyZpWed2ciTkZoK5Fa5qNdNoeVJetSogeKt";
+let contractAddress ="ct_24GYu1VqDn3kCGLMsrCAku1Bpd3kgiJ9tAtPbLAXAsKTvabpnZ";
 let contractSource =`
 payable contract Jaenet =
 
@@ -35,7 +35,7 @@ payable contract Jaenet =
     account = {},
     designs = {},
     trans   = {},
-    janet   = ak_2o5ZXFXU6uGNdLR2TzCBTSe7TCFfbtK8YAzMCd7zhosD9xymcq }
+    janet   = ak_2porkGU4JyPmH6Eo6CENNZGcdRF19Ux7F3sdugBiy9Z9UGv4Az }
 
   entrypoint getAbout() =
     state.account[state.janet]
